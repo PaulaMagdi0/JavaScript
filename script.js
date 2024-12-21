@@ -1,4 +1,5 @@
 // Question one
+// --------------
 
 // function sort(x, y, z) {
 //   if (x > y && y > z) {
@@ -14,6 +15,7 @@
 // sort(5,10,1)
 
 // Question two
+// --------------
 
 // function fizzBuzz() {
 //   for(var i=1;i<=100;i++){
@@ -31,6 +33,7 @@
 // fizzBuzz();
 
 // Question three
+// --------------
 
 // function sumition() {
 //   var sum=0;
@@ -44,6 +47,7 @@
 // sumition();
 
 // Question four
+// --------------
 
 // var count = 0;
 
@@ -67,7 +71,7 @@
 //             alert("Thanks for playing!"); 
 //         }
 //       } else {
-//           alert("Game over! The correct number was 5.");
+//           alert("Game over!");
 //       }
 //   }
 // }
