@@ -41,6 +41,7 @@ prime(2);
 prime(3);
 prime(4);
 prime(5);
+prime(6);
 
 // Question four
 // --------------
