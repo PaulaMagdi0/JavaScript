@@ -1,1 +1,1 @@
-# Lab one JavaScript ITI
+# Labs of JavaScript ITI
