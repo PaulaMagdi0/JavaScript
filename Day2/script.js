@@ -10,9 +10,9 @@ console.log(arr1);
 
 function longestWord(sentence){
     var arr = sentence.split(' ');
-    var ans = '';
-    for (let i = 0; i < arr.length; i++){
-        if (arr[i].length > ans.length){
+    var ans = arr[0];
+    for(let i = 1; i < arr.length; i++){
+        if(arr[i].length > ans.length){
             ans = arr[i];
         }
     }
@@ -24,12 +24,12 @@ longestWord('Web Development Tutorial');
 // --------------
 
 function prime(num){
-    if (num <= 1){
+    if(num <= 1){
         console.log('Enter a number greater than 1.');
         return;
     }
-    for (let i = 2; i < num; i++){
-        if (num % i === 0){
+    for(let i = 2; i <= Math.sqrt(num); i++){
+        if(num % i === 0){
             console.log(num + ' is Not a Prime Number');
             return;
         }
@@ -49,8 +49,8 @@ prime(6);
 function amountToCoins(amount, coins){
     coins.sort((a, b) => b - a);
     const ans = [];
-    for (let i=0; i<coins.length; i++){
-        while (amount >= coins[i]){
+    for(let i=0; i<coins.length; i++){
+        while(amount >= coins[i]){
             amount -= coins[i];
             ans.push(coins[i]);
         }
