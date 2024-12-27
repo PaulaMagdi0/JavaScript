@@ -27,8 +27,6 @@ fetch('data.json')
 
 
 function selection() {
-    select.innerHTML = '';
-
     var defaultOption = document.createElement('option');
     defaultOption.value = '';
     defaultOption.textContent = 'Select a person';
