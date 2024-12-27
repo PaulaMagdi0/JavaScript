@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Alice Johnson",
+        "age": 28,
+        "email": "alice.johnson@example.com",
+        "phone": "+1-555-123-4567",
+        "gender": "Female"
+    },
+    {
+        "name": "Michael Smith",
+        "age": 34,
+        "email": "michael.smith@example.com",
+        "phone": "+1-555-234-5678",
+        "gender": "Male"
+    },
+    {
+        "name": "Emily Davis",
+        "age": 22,
+        "email": "emily.davis@example.com",
+        "phone": "+1-555-345-6789",
+        "gender": "Female"
+    },
+    {
+        "name": "David Brown",
+        "age": 45,
+        "email": "david.brown@example.com",
+        "phone": "+1-555-456-7890",
+        "gender": "Male"
+    },
+    {
+        "name": "Sophia Wilson",
+        "age": 30,
+        "email": "sophia.wilson@example.com",
+        "phone": "+1-555-567-8901",
+        "gender": "Female"
+    }
+]
